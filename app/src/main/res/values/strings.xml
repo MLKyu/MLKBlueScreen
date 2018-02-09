@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenFilter</string>
+    <string name="no_image_warning">NO_IMG</string>
+    <string name="error_text">If you want to use this app, you grant permission</string>
+    <string name="noti_alert_message">Screen filter</string>
+    <string name="noti_on">ON</string>
+    <string name="noti_off">OFF</string>
+    <string name="noti_quit">QUIT</string>
+    <string name="blue_use">Screen filter</string>
+    <string name="blue_compare">Check filter effects</string>
+    <string name="blue_opacity">Opacity</string>
+    <string name="blue_sel_color">Select filter color</string>
+    <string name="blue_boot_start">Setting at system boot</string>
+    <string name="navi_filter_txt">Apply Navi-Bar</string>
+    <string name="notsearch_img">NOT</string>
+    <string name="manual_txt">Caution</string>
+    <string name="another_txt">Another app</string>
+    <string name="confirm_btn">OK</string>
+    <string name="manual_data">- Other method except the installation of the filter through the Play Store application does not install the click of a button.\n- In this case, stop the filter after the installation is complete, please run it again.\n- The app may become unstable when the navigation bar to apply the filter</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">스크린필터</string>
+    <string name="no_image_warning">NO_IMG</string>
+    <string name="error_text">해당 권한을 허가하면 앱을 사용할 수 있습니다.</string>
+    <string name="noti_alert_message">스크린필터</string>
+    <string name="noti_on">ON</string>
+    <string name="noti_off">OFF</string>
+    <string name="noti_quit">종료</string>
+    <string name="blue_use">스크린필터 적용</string>
+    <string name="blue_compare">적용 효과 비교</string>
+    <string name="blue_opacity">차단율</string>
+    <string name="blue_sel_color">필터 색상 선택</string>
+    <string name="blue_boot_start">부팅시 자동 실행</string>
+    <string name="navi_filter_txt">네비게이션바 필터 적용</string>
+    <string name="notsearch_img">NOT</string>
+    <string name="manual_txt">주의사항</string>
+    <string name="another_txt">개발자의 다른 앱</string>
+    <string name="confirm_btn">확인</string>
+    <string name="manual_data">- 필터 적용 중 APK파일 혹은 다른 스토어를 통한 앱 설치의 경우 설치버튼 클릭이 안될 수 있습니다. 이 경우 필터를 잠깐 중지하시고 진행해 주세요.\n\n- 네비게이션 바에 필터 적용 시 앱이 불안정해질 수 있습니다.</string>
+</resources>

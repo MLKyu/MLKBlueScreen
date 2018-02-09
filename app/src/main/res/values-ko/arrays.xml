@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="color_list">
+        <item>세피아색(추천)</item>
+        <item>검정(추천)</item>
+        <item>갈색</item>
+        <item>빨강</item>
+    </array>
+</resources>

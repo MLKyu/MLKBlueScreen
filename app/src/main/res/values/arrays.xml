@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="color_list">
+        <item>Sepia(recommended)</item>
+        <item>Black(recommended)</item>
+        <item>Brown</item>
+        <item>Red</item>
+    </array>
+</resources>

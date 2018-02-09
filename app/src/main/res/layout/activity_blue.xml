@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/layout_base_padding">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:layout_marginBottom="@dimen/main_vertical_margin"
+            android:background="@drawable/style_main_area"
+            android:padding="@dimen/text_area_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/blue_use" />
+
+            <ToggleButton
+                android:id="@+id/blue_filter_toggle"
+                android:layout_width="@dimen/toggle_width"
+                android:layout_height="@dimen/toggle_height"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/toggle_button"
+                android:textOff=""
+                android:textOn="" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/screen_on_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_marginBottom="@dimen/main_vertical_margin"
+                android:background="@drawable/style_main_area"
+                android:padding="@dimen/text_area_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/blue_compare" />
+
+                <ToggleButton
+                    android:id="@+id/filter_preview_toggle"
+                    android:layout_width="@dimen/toggle_width"
+                    android:layout_height="@dimen/toggle_height"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/toggle_button"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/main_vertical_margin"
+                android:background="@drawable/style_main_area"
+                android:orientation="vertical"
+                android:padding="@dimen/text_area_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blue_opacity" />
+
+                <TextView
+                    android:id="@+id/filter_percent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+                    android:textSize="@dimen/text_percent_size" />
+
+                <SeekBar
+                    android:id="@+id/filter_seeker"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="90"
+                    android:paddingLeft="@dimen/seeker_margin"
+                    android:paddingRight="@dimen/seeker_margin" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/color_select_box"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/main_vertical_margin"
+                android:background="@drawable/style_main_area"
+                android:orientation="vertical"
+                android:padding="@dimen/text_area_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/blue_sel_color" />
+
+                <Spinner
+                    android:id="@+id/color_spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+                android:layout_marginBottom="@dimen/main_vertical_margin"
+                android:background="@drawable/style_main_area"
+                android:padding="@dimen/text_area_padding">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/navi_filter_txt" />
+
+                <ToggleButton
+                    android:id="@+id/navi_filter_toggle"
+                    android:layout_width="@dimen/toggle_width"
+                    android:layout_height="@dimen/toggle_height"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/toggle_button"
+                    android:textOff=""
+                    android:textOn="" />
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/reboot_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill"
+            android:layout_marginBottom="@dimen/main_vertical_margin"
+            android:background="@drawable/style_main_area"
+            android:padding="@dimen/text_area_padding">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/blue_boot_start" />
+
+            <ToggleButton
+                android:id="@+id/rebootstart_toggle"
+                android:layout_width="@dimen/toggle_width"
+                android:layout_height="@dimen/toggle_height"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/toggle_button"
+                android:textOff=""
+                android:textOn="" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

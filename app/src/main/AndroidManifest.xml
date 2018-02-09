@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mlk.mlkbulescreen">
+
+    <!--android:platformBuildVersionCode="23"-->
+    <!--android:platformBuildVersionName="6.0-2438415"-->
+    <!--android:versionCode="1"-->
+    <!--android:versionName="1.0.0"-->
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/main_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.Blue_Main"
+            android:label="@string/app_name"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <service
+            android:name=".service.Bluefilter_Service"
+            android:enabled="true"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:permission="android.permission.SYSTEM_ALERT_WINDOW">
+            <intent-filter>
+                <action android:name="com.hcea.Bfilter" />
+            </intent-filter>
+        </service>
+        <receiver
+            android:name=".broadcast.buttonBroadcastReceiver"
+            android:enabled="true"
+            android:exported="false"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="com.hcea.settings.filter" />
+                <action android:name="com.hcea.settings.filter2" />
+                <action android:name="com.hcea.settings.filter3" />
+                <action android:name="com.hcea.settings.ACTION_EDIT_NOTIFICATION" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_vertical_margin">4dp</dimen>
+    <dimen name="layout_base_padding">5dp</dimen>
+    <dimen name="text_default_size">17dp</dimen>
+    <dimen name="text_percent_size">70dp</dimen>
+    <dimen name="text_area_padding">10dp</dimen>
+    <dimen name="main_item_front_margin">4dp</dimen>
+    <dimen name="main_item_back_margin">3dp</dimen>
+    <dimen name="main_item_radius">3dp</dimen>
+    <dimen name="toggle_width">62dp</dimen>
+    <dimen name="toggle_height">38dp</dimen>
+    <dimen name="seeker_margin">20dp</dimen>
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+</resources>
